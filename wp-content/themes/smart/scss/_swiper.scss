@@ -1,0 +1,19 @@
+.swiper {
+    width: 100%;
+    padding-bottom: 125%;
+    position: relative;
+}
+
+.swiper-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.swiper-slide {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
