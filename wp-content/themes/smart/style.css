@@ -236,6 +236,8 @@ a {
 
 .main {
   flex: 1 1 auto; }
+  .main.active-blur {
+    filter: blur(10px); }
 
 .section {
   width: 100%; }
