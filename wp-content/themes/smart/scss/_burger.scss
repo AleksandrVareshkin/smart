@@ -25,22 +25,13 @@
     z-index: 20;
     display: block;
     position: fixed;
-    top: 76px;
+    top: 100px;
     right: 0;
-    width: 250px;
-    height: 200px;
-    background-color: $menuColor;
+    width: 100%;
+    background-color: #fff;
     transform: translateX(100%);
     transition: transform 0.5s;
     border-radius: 5px;
-
-    @media (min-width:$md) {
-        top: 176px;
-    }
-
-    @media (min-width:$lg) {
-        top: 152px;
-    }
 
     @media (min-width:$xl) {
         display: none;
